@@ -1,0 +1,11 @@
+En el backend establecemos el valor del headers (x-token), la cual recibira el token desde el frontend.
+El frontend al hacer una eptición debera enviar como parametros el header con el token.
+Por ejemplo:
+fetch("/", {
+    method: "POST",
+    headers: {
+        "x-token": token,
+    }
+})
+
+* La variable token lo recibimos ya sea en localstorage, cookies, entre otros

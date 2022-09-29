@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-image: url(https://virtual.autonoma.edu.pe/AtencionEnLinea/assets/img/mi_campus/Imagen-40.jpg);
+    background-size: cover;
+}
+
+header{
+    background-color: orange;
+}
+
+#chat{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#ulUsuarios {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ulUsuarios .text-success{
+    color: black !important;
+}
